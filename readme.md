@@ -1,8 +1,8 @@
-#AMP server for local development for linux
+# AMP server for local development for linux
 
 A local web server using PHP, Apache, Mysql and PHPMyadmin using Docker Composer
 
-##Step 1:
+## Step 1:
 
 run
 ```
@@ -16,7 +16,7 @@ or
 ```
 you'll be able to access localhost:9000 to acess [Portainer](https://www.portainer.io/) <<< nice tool >>>
 
-###Step 2:
+### Step 2:
 
 access php_7_2 folder and run (Atention: ports 80, 5080, 6080 will be used here):
 
@@ -26,7 +26,7 @@ docker-compose up -d
 
 you can do the same in php_5_6 folder
 
-###Step 3:
+### Step 3:
 
 Result:
 
