@@ -1,0 +1,12 @@
+# exclude everything
+# php_7_2/www/*
+# php_7_2/db/*
+# php_5_6/www/*
+# php_5_6/db/*
+
+
+# exception to the rule
+# php_7_2/www/.gitkeep 
+# php_7_2/db/.gitkeep 
+# php_5_6/www/.gitkeep 
+# php_5_6/db/.gitkeep 

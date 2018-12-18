@@ -1,0 +1,26 @@
+php:
+  build: .
+  ports:
+   - "80:80"
+   - "433:443"
+  volumes:
+   - ../www:/var/www/html
+   - ./php-ini/php.ini:/usr/local/etc/php/conf.d/php.ini
+  links:
+   - db
+db:
+  image: mysql:5.7
+  command: mysqld --sql_mode=""
+  volumes:
+   - ../db:/var/lib/mysql
+  environment:
+   - MYSQL_ROOT_PASSWORD=teste123
+   - MYSQL_DATABASE=teste123
+app:
+    image: phpmyadmin/phpmyadmin:latest
+    links:
+      - db
+    ports:
+      - 6080:80
+    environment:
+      - PMA_ARBITRARY=1
