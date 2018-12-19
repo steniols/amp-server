@@ -7,12 +7,10 @@ A local web server with PHP, Apache, Mysql and PHPMyadmin using Docker Composer
 run
 ```
 docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
-
 ```
 or
 ```
 /bin/bash portainer.sh
-
 ```
 you'll be able to access localhost:9000 to acess [Portainer](https://www.portainer.io/) <<< nice tool >>>
 
