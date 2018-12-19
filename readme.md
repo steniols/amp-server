@@ -16,20 +16,20 @@ you'll be able to access localhost:9000 to acess [Portainer](https://www.portain
 
 ### Step 2:
 
-access php_7_2 folder and run (ports 80, 5080, 6080 will be used here):
+access ./php_7_2 folder and run (ports 80, 5080, 6080 will be used here):
 
 ```
 docker-compose up -d
 ```
 
-you can do the same in php_5_6 folder
+you can do the same in ./php_5_6 folder
 
 ### Step 3:
 
 Result:
 
-- http://localhost/ to use php_7_2
-- http://localhost:5080/ to use php_5_6
+- http://localhost/ to use php 7.2
+- http://localhost:5080/ to use php 5.6
 - http://localhost:6080/ to use PHPMyadmin
 - http://localhost:9000/ to access Portainer tool and manage containers
 - To acess mysql use MYSQL container ip, user: root and password: teste123
