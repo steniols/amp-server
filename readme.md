@@ -16,7 +16,7 @@ you'll be able to access localhost:9000 to acess [Portainer](https://www.portain
 
 ### Step 2:
 
-access php_7_2 folder and run (Atention: ports 80, 5080, 6080 will be used here):
+access php_7_2 folder and run (ports 80, 5080, 6080 will be used here):
 
 ```
 docker-compose up -d
