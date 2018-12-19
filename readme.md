@@ -1,6 +1,6 @@
 # AMP server for local development for linux
 
-A local web server using PHP, Apache, Mysql and PHPMyadmin using Docker Composer
+A local web server with PHP, Apache, Mysql and PHPMyadmin using Docker Composer
 
 ## Step 1:
 
