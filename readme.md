@@ -31,7 +31,7 @@ Result:
 - http://localhost/ to use php_7_2
 - http://localhost:5080/ to use php_5_6
 - http://localhost:6080/ to use PHPMyadmin
-- http://localhost:9000/ to acess Portainer tool and manage containers
+- http://localhost:9000/ to access Portainer tool and manage containers
 - To acess mysql use MYSQL container ip, user: root and password: teste123
 
 All in your local machine:
