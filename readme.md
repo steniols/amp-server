@@ -37,5 +37,5 @@ Result:
 All in your local machine:
 
 - your databases will be saved in your local ./data folder
-- your php.ini config can be add in ./php-ini folder
-- your php files can be add in ./www folder
+- your php.ini config can be added in ./php-ini folder
+- your php files can be added in ./www folder
