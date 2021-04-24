@@ -1,6 +1,6 @@
 # AMP server for local development in linux
 
-A local web server with PHP, Apache, Mysql and PHPMyadmin using Docker Compose
+A local web server with PHP, Apache, Mysql and PHPMyadmin using Docker Compose.
 
 ## Install Portainer:
 
@@ -50,6 +50,6 @@ docker-compose up -d
 
 ## All in your local machine:
 
-- your databases will be saved in project`./db` folder
-- your `php.ini` config can be added in `./php-ini` folder
-- your php files can be added in `./www` folder
+- Databases will be saved in project`./db` folder
+- The `php.ini` config can be added in `./php-ini` folder
+- PHP files can be added in `./www` folder
