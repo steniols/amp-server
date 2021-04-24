@@ -12,17 +12,17 @@ or
 ```
 /bin/bash portainer.sh
 ```
-you'll be able to access localhost:9000 to acess [Portainer](https://www.portainer.io/) <<< nice tool >>>
+you'll be able to access localhost:9000 to acess [Portainer](https://www.portainer.io/)
 
 ### Step 2:
 
-access ./php_7_2 folder and run (ports 80, 5080, 6080 will be used here):
+access `./php_7_2` folder and run (ports 80, 5080, 6080 will be used here):
 
 ```
 docker-compose up -d
 ```
 
-you can do the same in ./php_5_6 folder
+you can do the same in `./php_5_6` folder
 
 ### Step 3:
 
