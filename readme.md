@@ -18,7 +18,8 @@ or
 /bin/bash portainer.sh
 ```
 After this go to `http://localhost:9000`.
-<br/><br/><br/>
+<br/>
+<br/>
 
 ## Install Apache, PHP, MySQL and PHPMyAdmin:
 
@@ -28,7 +29,8 @@ docker-compose up -d
 ```
 After this go to `http://localhost/` for PHP 7.2 access and `http://localhost:6080/` for PHPMyAdmin access. 
 The MySQL user and password are: `user: root` and `password: teste123`.
-
+<br/>
+<br/>
 
 ## Install other PHP versions
 
@@ -45,6 +47,8 @@ You can optionally install other versions of PHP by creating new folders for the
 cd php_x.x
 docker-compose up -d
 ```
+<br/>
+<br/>
 
 ## All in your local machine:
 
