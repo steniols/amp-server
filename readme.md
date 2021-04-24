@@ -32,10 +32,10 @@ Result:
 - http://localhost:5080/ to use php 5.6
 - http://localhost:6080/ to use PHPMyadmin
 - http://localhost:9000/ to access Portainer tool and manage containers
-- To acess mysql use MYSQL container ip, user: root and password: teste123
+- Login in MYSQL with ` user: root` and `password: teste123`
 
 All in your local machine:
 
-- your databases will be saved in your local ./db folder
-- your php.ini config can be added in ./php-ini folder
-- your php files can be added in ./www folder
+- your databases will be saved in your local `./db` folder
+- your php.ini config can be added in `./php-ini` folder
+- your php files can be added in `./www` folder
