@@ -1,4 +1,4 @@
-# AMP server for local development on linux
+# AMP server for local development in linux
 
 A local web server with PHP, Apache, Mysql and PHPMyadmin using Docker Compose
 
