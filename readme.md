@@ -4,7 +4,7 @@ A local web server with PHP, Apache, Mysql and PHPMyadmin using Docker Compose
 
 ## Install Portainer:
 
-Install Portainer for better container management
+Install Portainer for better container management:
 
 ```bash
 git git@github.com:steniols/amp-server.git
@@ -17,19 +17,17 @@ or
 ```bash
 /bin/bash portainer.sh
 ```
-After this you'll be able to access `http://localhost:9000`. You can use this tool for management the containers of next step.
+After install it access `http://localhost:9000`.
 
 
 ## Install Apache, PHP, MySQL and PHPMyAdmin:
 
-Install Apache, PHP 7.2, MySQL and PHPMyAdmin:
 ```bash
 cd php_7.2
 docker-compose up -d
 ```
-After this you can access:
-`http://localhost/` will run PHP 7.2
-`http://localhost:6080/` will run PHPMyAdmin (`user: root` and `password: teste123`)
+After this you can access `http://localhost/` for PHP 7.2 and `http://localhost:6080/` for PHPMyAdmin (`user: root` and `password: teste123`)
+
 
 ## Install other PHP versions
 
