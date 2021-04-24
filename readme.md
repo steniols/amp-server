@@ -47,8 +47,6 @@ You can optionally install other versions of PHP by creating new folders for the
 cd php_x.x
 docker-compose up -d
 ```
-<br/>
-<br/>
 
 ## All in your local machine:
 
