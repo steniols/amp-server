@@ -12,7 +12,7 @@ or
 ```
 /bin/bash portainer.sh
 ```
-you'll be able to access localhost:9000 to acess [Portainer](https://www.portainer.io/)
+you'll be able to access `localhost:9000` to acess [Portainer](https://www.portainer.io/)
 
 ### Step 2:
 
