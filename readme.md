@@ -18,7 +18,7 @@ or
 /bin/bash portainer.sh
 ```
 After this go to `http://localhost:9000`.
-
+<br/>
 
 ## Install Apache, PHP, MySQL and PHPMyAdmin:
 
