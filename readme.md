@@ -4,13 +4,12 @@ A local web server with PHP, Apache, Mysql and PHPMyadmin using Docker Compose
 
 ## Install Portainer:
 
+Install Portainer for better container management
+
 ```bash
 git git@github.com:steniols/amp-server.git
 cd amp-server
 ```
-
-Install Portainer for better container management
-
 ```bash
 docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 ```
